@@ -1,0 +1,19 @@
+.viewBlock {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 1%;
+    box-shadow: 5px 5px 25px 25px rgb(0 0 0 / 25%);
+    background-color: #282c341c;
+    
+
+    padding: 0 5% 5% 5%;
+
+}
+
+.headerBlock{
+    text-align: center;
+}
+
+.conteinerBlock{
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+.formIn{
+    background-color: rgba(154, 147, 147, 0.142);
+    display: block;
+    height: calc(100vh - 44px);
+    width: 100%;
+    position: relative;
+    min-height: 370px;
+    
+
+
+
+}
+.formIn form{
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-60%);
+
+}
+.formIn span{
+    color: #403866;
+    font-family: 'Ubuntu';
+    font-weight: 600;
+    margin-bottom: 25px;
+
+}
+
+.formIn input{
+    background-color: rgba(101, 95, 95, 0.142);
+    border: none;
+    padding:0.5%;
+    font-family: 'Ubuntu';
+    color: #403866;
+    line-height: 1.2;
+    font-weight: 600;
+    padding: 0 20px 0 38px;
+    height: 52px;
+}
+.formIn p{
+    margin: 0.2%;
+}
+
+.formIn button{
+    background-color: aquamarine;
+    border:none;
+    padding:1%;
+    color: #11264c;
+    font-family: Rubik;
+    font-size: 15px;
+    padding: 0 38px 0 38px;
+    height: 52px;
+    transition: all 0.5s;
+}
+.formIn button:hover{
+    background-color: rgb(104, 209, 174);
+    transition: all 0.5s;
+}

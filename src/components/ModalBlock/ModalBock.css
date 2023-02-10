@@ -1,0 +1,81 @@
+.modalBlock{
+    background-color: rgba(0, 0, 255, 0.225);
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    transition: all 2s;
+    overflow-y:scroll;
+    /* min-width: 500px; */
+    
+    
+}
+
+.modalFormContent{
+    position: relative;
+    background-color: #21d495;
+    margin: 2% 20% 2% 20%;
+    /* flex: 1; */
+}
+.close{
+    border: none;
+    color:red;
+    float:right;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 0 5% 0 5%; */
+    /* box-shadow: 5px 5px 10px rgb(0 0 0 / 25%); */
+   width: 100%;
+   margin-right: 1%;
+   margin-left: 1%;
+  
+    align-items: center;
+}
+.conteinerItem{
+    position: relative;
+    
+}
+
+
+.conteinerItem a{
+    text-decoration: none;
+    color: green;
+}
+.buy{
+    border: none;
+    color:green;
+    font-weight: 1000;
+    float:right;
+    margin-right: 20px;
+}
+.buy:hover{
+    cursor:pointer;
+}
+.conteinerItem{
+    max-height: 500px;
+  
+    
+}
+.content{
+    margin-top:5%;
+}
+
+img{
+    height:100%;
+    width: 100%;
+}
+.modalFormContent p{
+    background: #342F2F;
+    color:white;
+    margin:0;
+    margin-top: 5%;
+}
