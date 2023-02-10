@@ -1,6 +1,6 @@
 class RoboService {
 
-  _apiBase = 'http://195.93.173.91:3002';
+  _apiBase = '';
   
 
   getReSource = async (url) => {
